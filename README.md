@@ -1,7 +1,7 @@
 <h1 align="center">
     <a>Generic Library</a>
 </h1>
-<p align="center"><small>Intended to create generic libraries which can facilitate boilerplate codes and functionalities with easy integrations with Python applications.</small></p>
+<p align="center">Intended to create generic libraries which can facilitate boilerplate codes and functionalities with easy integrations with Python applications.</p>
 
 <div align="center">
 <br />
@@ -34,8 +34,8 @@ Progress-tracker spawns a thread in the backend and monitors the progress of any
 ## Input Parameters
 `tracker` decorator takes two arguments.
 
-* `max_timeout: int` <small>[Optional]</small> It's the time in seconds after which the progress tracker thread automatically times out. Set this value wisely, depends on how much time your function takes generally. Placing a higher timeout value is advisable if you're not sure about the usual run time of your function. **By default, this value is set to 18000 seconds (5 hour)**. However, it gets terminated along with your function, whichever time is lesser.
-* `log_interval: int` <small>[Optional]</small> Pace at which progress will be logged. It's measured in seconds. **By default, it is set at 2 seconds interval**.
+* `max_timeout: int` [Optional] It's the time in seconds after which the progress tracker thread automatically times out. Set this value wisely, depends on how much time your function takes generally. Placing a higher timeout value is advisable if you're not sure about the usual run time of your function. **By default, this value is set to 18000 seconds (5 hour)**. However, it gets terminated along with your function, whichever time is lesser.
+* `log_interval: int` [Optional] Pace at which progress will be logged. It's measured in seconds. **By default, it is set at 2 seconds interval**.
 
 
 ## Usage
