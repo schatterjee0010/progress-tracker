@@ -5,7 +5,7 @@ with open("README.md", "r") as fl:
 
 setup(
     name="generic_libs",
-    version="0.0.2",
+    version="0.0.3",
     author="S Chatterjee",
     author_email="schatterjee0010@gmail.com",
     description="Generic Libraries",
@@ -21,7 +21,6 @@ setup(
     install_requires=['xmltodict'],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3',
